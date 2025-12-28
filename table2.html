@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge Table</title>
+    <style>
+        table {
+            border: 3px solid royalblue;
+            border-collapse: collapse;
+            width: 60%;
+            /* background-color: rgb(52, 52, 61); */
+        }
+        th, td{ border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+            color: black;
+            font-size: 20px;}
+            caption{
+                font-style: italic;
+                font-size: 30px;
+                color: blue;
+                font-weight: bold;
+            }
+    </style>
+</head>
+<body style="background-color: aliceblue;">
+    <table>
+        <caption>A test table with merged cells</caption>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2">Averge</th>
+            <th rowspan="2">Red <br> eyes</th>
+        </tr>
+        <tr>
+            <th>height</th>
+            <th>weight</th>
+        </tr>
+        <tr>
+            <th>Male</th>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <th>Female</th>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+    </table>
+</body>
+</html>
